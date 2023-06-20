@@ -11,15 +11,15 @@ let Y = "now";
 console.log(x + Y);
 console.log('1' + 2);
 */
-console.log(typeof (undefined));
-console.log(typeof (0));
-console.log(typeof (10n));
-console.log(typeof (true));
-console.log(typeof ("foo"));
-console.log(typeof (Symbol("id")));
-console.log(typeof (Math));
+console.log(typeof (undefined));  // "Undefined"
+console.log(typeof (0));           // "Number"
+console.log(typeof (10n));      // "Bigint"
+console.log(typeof (true));     // "Boolean"
+console.log(typeof ("foo"));    // "String"
+console.log(typeof (Symbol("id")));   // "Object"
+console.log(typeof (Math));          // "Object"
 console.log(typeof (null));
-console.log(typeof (alert));
+console.log(typeof (alert));        // "Object"
 
 
 
