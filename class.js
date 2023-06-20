@@ -18,7 +18,7 @@ console.log(typeof (true));     // "Boolean"
 console.log(typeof ("foo"));    // "String"
 console.log(typeof (Symbol("id")));   // "Object"
 console.log(typeof (Math));          // "Object"
-console.log(typeof (null));
+console.log(typeof (null));         // "Object"
 console.log(typeof (alert));        // "Object"
 
 
